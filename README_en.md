@@ -132,7 +132,7 @@ The returned value is
 
 ### Quantization
 
-By default, the model parameters are loaded with FP16 precision, which require about 13GB of GPU memory. It your GPU memory is limited, you can try to load the model parameters with quantization:
+By default, the model parameters are loaded with FP16 precision, which require about 13GB of GPU memory. If your GPU memory is limited, you can try to load the model parameters with quantization:
 
 ```python
 # Change according to your hardware. Only support 4/8 bit quantization now.
